@@ -1,0 +1,68 @@
+ <!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>One Summer Chicago | Need an ID?</title>
+        <meta charset="utf-8">
+        <!--SEO Optimization-->
+        <meta name="description" content="ChicagoLX Inforgraphic on how to obtain identification credentials for employment, opening a bank account and more.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--External Linking-->
+        <link rel="stylesheet" href="styles.css">
+        <!--Icons-->
+        <link rel="icon" href="images/favicon-32x32.png">
+        <!--Apple Optmization 180x180-->
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png"/>
+    </head>
+    <body class="infographic">
+        <h1>Need an ID? Check out the types of ID below</h1>
+        <!--NATIONAL ID-->
+        <div class="container" id="national">
+            <img class="charts" src="images/info-nationalid.svg">
+            <button class="accordion"><h2>Click for more info</h2><img class="arrows" src="images/arrow-down.svg" width="12px"></button>
+            <div class="panel">
+                <ul>
+                    <li>Requested for <b>employment</b>, <b>college</b>, opening a <b>bank account</b>, <b>travel</b> and more. (A driver’s license serves in place of a state ID for people who have them.) </li>
+                    <li>To get a state ID, individuals most often bring their social security card, birth certificate AND a transcript or report card (with address) or utility bill. </li>
+                    <li>Your state will likely charge you a small fee to get a state ID. </li>
+                    <li>Visit your state’s Secretary of State website to view a list of documents needed or <a href="http://www.cyberdriveillinois.com/facilities/facilitylist.html" target="_blank">find locations</a>.</li>
+                </ul>
+            </div>
+        </div>
+        <!--SOCIAL SECURITY CARD-->
+        <div class="container">
+            <img class="charts" src="images/info-socialsecurity.svg">
+            <button class="accordion"><h2>Click for more info</h2><img class="arrows" src="images/arrow-down.svg" width="12px"></button>
+            <div class="panel">
+                <ul>
+                    <li>Required document for getting a bank account and is also often needed for employment or to get other identification like a state ID.</li>
+                    <li>If you do not have a social security card, you can request a new or replacement card for free. </li>
+                    <li>You will need documents to prove your identity, birthdate and immigration status.</li>
+                    <li>If you are requesting a new card, you may need to apply in <a href="https://www.ssa.gov/benefits/forms/" target="_blank">person</a>. Click <a href="https://www.ssa.gov/forms/ss-5.pdf" target="_blank">here to learn more.</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--BIRTH CERTIFICATE-->
+        <div class="container">
+            <img class="charts" src="images/info-birthcertificate.svg">
+            <button class="accordion"><h2>Click for more info</h2><img class="arrows" src="images/arrow-down.svg" width="12px"></button>
+            <div class="panel">
+                <ul>
+                    <li>Is requested from the county in which you were born. </li>
+                    <li>Small fees generally apply.</li>
+                    <li>Visit your county clerk’s website for more information about requesting a birth from the county in which you were born.</li>
+                </ul>
+            </div>
+        </div>    
+        <script>
+            var acc = document.getElementsByClassName("accordion"); var i;
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+                } else {panel.style.display = "block";}});}
+        </script>
+    </body>
+</html> 
