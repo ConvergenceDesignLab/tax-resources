@@ -1,6 +1,6 @@
 # Interactive Tax Resources for Youth through LRNG & EAC
 
-A pair of tools built by Columbia students (maintained by @mikewesthad) to get youth understand tax forms for employment. These were produced for [LRNG](https://www.lrng.org/)'s online learning playlists and the [Economic Awareness Council](https://www.econcouncil.org/). The two tools are in `sites/` and are almost exact copies:
+A pair of tools built by Columbia students (maintained by @mikewesthad) to help youth understand tax forms for employment. These were produced for [LRNG](https://www.lrng.org/)'s online learning playlists and the [Economic Awareness Council](https://www.econcouncil.org/). The two tools are in `sites/` and are almost exact copies:
 
 `tax-forms` - Chicago-specific, summer employment resource
 `tax-forms-year-round` - National, year-round resource
