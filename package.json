@@ -1,0 +1,23 @@
+{
+  "name": "tax-resources",
+  "version": "1.0.0",
+  "description": "LRNG Tax Playlist Resources for EAC",
+  "main": "index.js",
+  "scripts": {
+    "dev": "browser-sync start --directory --server \"sites\" --files \"sites\"",
+    "deploy:gh-pages": "gh-pages --dist sites"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConvergenceDesignLab/tax-resources.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/ConvergenceDesignLab/tax-resources/issues"
+  },
+  "homepage": "https://github.com/ConvergenceDesignLab/tax-resources#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "gh-pages": "^2.0.1"
+  }
+}
