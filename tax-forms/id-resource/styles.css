@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Rokkitt');
+
+/*font-family: 'Rokkitt', serif;
+Weights[Regular, Bold]: 400, 700
+Colors[Blue, Teal, Orange, Dark Blue]: #5C7DE4, #AFD3CD, #FFAE8A, #222B3E */
+
+*{margin:0;padding:0;box-sizing: border-box;}
+
+/*Mother Container*/
+.container{font-family: 'Rokkitt', serif; font-weight: 400; font-size: 1em; margin: auto;}
+
+/*Header*/
+h1{font-family: 'Rokkitt', serif; text-align: center; font-size: medium;}
+h2{font-size: 1em; display: inline-block;}
+
+/*SVG Handler*/
+svg{fill: white; width: 40px; height: 25px; position: relative;}
+
+/*Arrows*/
+.arrows{vertical-align: inherit; margin-left: 4px;}
+
+/*Images*/
+.charts{vertical-align: top;}
+
+/*Links*/
+a {color: #5C7DE4;}
+a:hover {color: #222B3E;}
+
+/*Button*/
+.accordion {width: 100%; height: 50px; background-color: #222B3E; color: white; cursor: pointer; border: none; outline: none; transition: 0.4s;}
+.active, .accordion:hover {background-color: #5C7DE4;}
+
+/*Expanded Text*/
+.panel {padding: 2em; background-color: white; display: none; overflow: hidden; transition: visibility 0s, opacity 0.5s linear;}
+
+/*Media Queries*/
+/*Larger than tablet (also point when grid becomes active)*/
+@media (min-width: 550px){}
+
+/*Custom*/
+@media (min-width: 700px){h1{font-size: x-large; padding-bottom: 20px;}.container{width:50%; float: left; padding-left: 20px; margin-bottom: 20px;} .infographic{padding-left: 2em; padding-right: 2em; padding-top: 2em;}}
+@media (min-width: 800px){.infographic{padding-left: 4em; padding-right: 4em; padding-top: 2em;}}
+@media (min-width: 860px){.infographic{padding-left: 7em; padding-right: 7em;}}
+
+/*Larger than desktop*/
+@media (min-width: 1000px) {.infographic{padding-left: 12em; padding-right: 12em;}}
+
+/*Larger than Desktop HD*/
+@media (min-width: 1200px) {.infographic{padding-left: 17em; padding-right: 17em;}}
