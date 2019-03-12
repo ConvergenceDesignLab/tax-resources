@@ -17,7 +17,7 @@ The tools are simple HTML sites. Each folder is self-contained and can be hosted
 Hint: you can view the differences between `tax-forms` and `tax-forms-year-round` via:
 
 ```
-git diff --no-index ./tax-forms ./tax-forms-year-round
+git diff --no-index ./sites/tax-forms ./sites/tax-forms-year-round
 ```
 
 ### Running
