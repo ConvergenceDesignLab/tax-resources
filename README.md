@@ -5,6 +5,11 @@ A pair of tools built by Columbia students (maintained by @mikewesthad) to help 
 - `tax-forms` - Chicago-specific, summer employment resource
 - `tax-forms-year-round` - National, year-round resource
 
+Credits:
+
+- Original version created by Andrew Shike
+- ID resources create by Lorelei Miyamura
+
 ## Technical
 
 The tools are simple HTML sites. Each folder is self-contained and can be hosted as is.
