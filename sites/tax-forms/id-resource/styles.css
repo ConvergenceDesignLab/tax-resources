@@ -7,7 +7,13 @@ Colors[Blue, Teal, Orange, Dark Blue]: #5C7DE4, #AFD3CD, #FFAE8A, #222B3E */
 *{margin:0;padding:0;box-sizing: border-box;}
 
 /*Mother Container*/
-.container{font-family: 'Rokkitt', serif; font-weight: 400; font-size: 1em; margin: auto;}
+.container{font-family: 'Rokkitt', serif; font-weight: 400; font-size: 1em;}
+
+/*ScrollTo Handlers*/
+#ss{height: 100%;}
+#bc{height: 100%;}
+#id{height: 100%;}
+#ck{height: 100%;}
 
 /*Header*/
 h1{font-family: 'Rokkitt', serif; text-align: center; font-size: medium;}
@@ -38,7 +44,7 @@ a:hover {color: #222B3E;}
 @media (min-width: 550px){}
 
 /*Custom*/
-@media (min-width: 700px){h1{font-size: x-large; padding-bottom: 20px;}.container{width:50%; float: left; padding-left: 20px; margin-bottom: 20px;} .infographic{padding-left: 2em; padding-right: 2em; padding-top: 2em;}}
+@media (min-width: 700px){h1{font-size: x-large; padding-bottom: 20px;}.mother-container{display: flex; align-content: flex-start; align-items: flex-start; flex-wrap: wrap; justify-content: space-between;}.container{width:50%; padding-left: 20px; margin-bottom: 20px;} .infographic{padding-left: 2em; padding-right: 2em; padding-top: 2em;}}
 @media (min-width: 800px){.infographic{padding-left: 4em; padding-right: 4em; padding-top: 2em;}}
 @media (min-width: 860px){.infographic{padding-left: 7em; padding-right: 7em;}}
 
